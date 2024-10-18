@@ -8,7 +8,7 @@ class KMeans(object):
     We also use it to make prediction by attributing labels to clusters.
     """
 
-    def __init__(self, K, max_iters=100):
+    def __init__(self, K, max_iters=1000):
         """
         Initialize the new object (see dummy_methods.py)
         and set its arguments.

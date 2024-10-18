@@ -11,7 +11,7 @@ class SVM(object):
     SVM method.
     """
 
-    def __init__(self, C, kernel, gamma=1., degree=1, coef0=0.):
+    def __init__(self, C, kernel, gamma=1., degree=5, coef0=0.):
         """
         Initialize the new object (see dummy_methods.py)
         and set its arguments.

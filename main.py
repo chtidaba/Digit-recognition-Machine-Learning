@@ -58,7 +58,7 @@ def main(args):
         method_obj =  KMeans(10)  
     
     elif args.method == "logistic_regression": 
-        method_obj = LogisticRegression(0.01)
+        method_obj = LogisticRegression(0.1)
     
     elif args.method == "svm": 
         method_obj = SVM(2, 'poly')
